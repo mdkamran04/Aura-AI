@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.contain{
+  background-color: var(--bg);
+  color: var(--textColor);
+}
+
+.dark {
+  --bg: #131314;
+  --bgSecondary: #1e1f20;
+  --textColor: #444746;
+  --softBg: #1f273a;
+  --softTextColor: #a6a6a6;
+}
+
+.light {
+  --bg: white;
+  --bgSecondary: #f1f5f9;
+  --textColor: black;
+  --softBg: #f0f0f0;
+  --softTextColor: #626262;
+}
+
+:root {
+  min-height: 100vh;
+}
